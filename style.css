@@ -1,0 +1,220 @@
+*{
+	margin: 16px;
+	padding: 0px;
+}
+
+body {
+  background-image: url(images/Portada.jpeg);
+  backdrop-filter: blur(6px);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div#data{
+	display: flex;
+	background-color:;
+}
+
+div#about{
+	margin: auto;
+}
+
+div#CV{
+	margin: auto;
+}
+
+div#contact{
+	margin: auto;
+}
+
+div#container{
+	margin: auto;
+	width: 1380px;
+	height: 4350px;
+	background-color:;
+}
+
+div#rig1{
+	float: left;
+	margin-top: 352px;
+	margin-bottom: 90px;
+	width: 640px;
+	height: 374px;
+	background-size: 100%;
+	border-radius: 240px;
+	animation: rig1 .8s infinite;
+}
+
+@keyframes rig1{
+	0%, 25%{
+		background-image: url(images/rig1.1.jpeg);
+	}
+	26%, 50%{
+		background-image: url(images/rig1.2.jpeg);
+	}
+	51%, 75%{
+		background-image: url(images/rig1.3.jpeg);
+	}
+	76%, 100%{
+		background-image: url(images/rig1.4.jpeg);
+	}
+}
+
+
+div#rig2{
+	float: right;
+	margin-top: 352px;
+	margin-bottom: 90px;
+	width: 640px;
+	height: 374px;
+	background-size: 100%;
+	border-radius: 240px;
+	animation: rig2 .5s infinite;
+	animation-direction: alternate;
+}
+
+@keyframes rig2{
+	0%, 20%{
+		background-image: url(images/rig2.1.jpeg);
+	}
+	21%, 50%{
+		background-image: url(images/rig2.2.jpeg);
+	}
+	51%, 80%{
+		background-image: url(images/rig2.3.jpeg);
+	}
+	81%, 100%{
+		background-image: url(images/rig2.4.jpeg);
+	}
+}
+
+div#game1{
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	background-color: #faae49;
+	border-radius: 480px;
+}
+
+.ventana1{
+  background-color: #91ffff;
+  width:900px;
+  margin: 25% auto;
+  position: relative;
+  border-radius: 16px;
+}
+.modal1{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:-250px;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 1s;
+}
+
+#IrVentanaFlotante1:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+div#info1{
+	float: right;
+	width: 340px;
+	height: 330px;
+	background-color: ;
+}
+
+div#container2{
+    float: left;
+	display: flex;
+	background-color: #ffbe6f;
+	margin-top: 0px;
+	margin-bottom: 90px;
+	border-radius: 96px;
+}
+
+div#Spawn1{
+	align-self: center;
+	margin: auto;
+}
+
+div#Transform1{
+	align-self: center;
+	margin: auto;
+}
+
+
+div#Trigger1{
+	align-self: center;
+	margin: auto;
+}
+
+div#game2{
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	background-color: #ffce93;
+	border-radius: 480px;
+}
+
+.ventana2{
+  background-color: #b2ffff;
+  width:900px;
+  margin: 20% auto;
+  position: relative;
+  border-radius: 16px;
+}
+.modal2{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:-250px;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 1s;
+}
+
+#IrVentanaFlotante2:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+div#info2{
+	float: right;
+	width: 340px;
+	height: 330px;
+	background-color: ;
+}
+
+div#container3{
+    float: left;
+	display: flex;
+	margin-top: 0px;
+	background-color: #ffdeb6;
+	border-radius: 96px;
+}
+
+div#Lifes2{
+	align-self: center;
+	margin: auto;
+}
+
+div#SM2{
+	align-self: center;
+	margin: auto;
+}
+
+div#Target2{
+	align-self: center;
+	margin: auto;
+}
+
+
+

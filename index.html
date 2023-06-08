@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang = "es">
+<title>PORTAFOLIO</title>
+<head>
+<meta http-equiv="Content-Type">
+<link rel= "stylesheet" type = "text/css" href = "style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet"> 
+  <script type="text/javascript">
+    $(function() {
+                $('#about a').miniPreview({ prefetch: 'pageload' });
+                 });
+ </script> <script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
+</head>
+<body>
+<br>
+<br>
+<br>
+<h1 style="color: white"><font size="7", face="Brush Script MT"><center>SAM PÉREZ</center></font></h1>
+<h1 style="color: white"><font size="7", face="Brush Script MT"><center>Rigger / Developer</center></font></h1>
+<br>
+<br>
+<hr>
+<div id = "data">
+    <div id = "about">
+	  <a href="images/about.png">
+       <h3 style="color: white"><font face="Georgia"><center>ABOUT</center></font></h3>
+	  </a>
+    </div>
+    <div id = "CV">
+	 <a href="images/CV.pdf">
+       <h3 style="color: white"><font face="Georgia"><center>CV</center></font></h3>
+	 </a>
+    </div>
+    <div id = "contact">
+	  <a href="mailto:sperez69@alumnos.uaq.mx?Subject=Offer%20of%20Employment">
+       <h3 style="color: white"><font face="Georgia"><center>CONTACT</center></font></h3>
+	  </a>
+    </div>
+</div>
+<hr>
+<div id = "container">
+
+    <div id="rig1">
+    </div>
+    <div id="rig2">
+    </div>
+	
+	<div id="game1">
+       	 <a href="#IrVentanaFlotante1">
+           <div id="game1">
+             <img src ="images/game1.jpeg" style="width:1280px">
+           </div>
+         </a>
+
+        <div id="IrVentanaFlotante1" class="modal1">
+        <div class="ventana1">
+          <a href="#" style='text-decoration:none;'>
+          <p align = "right">CLOSE</p>
+          </a>
+         <center><h2>Subway Quetz</h2></center>
+		 <img src ="images/quetz.jpeg" style="width:55%">
+		 <div id="info1">
+         <p><b>Description:</b></p>
+		 <p>Subway Quetz is a game of dodging obstacles whose main character is Quetzalcoatl himself. Your scenery will be the desert.</p>
+		 <br>
+		 <p><b>Developer:</b>SAHARA team</p>
+		 <br>
+		 <p><b>Engine:</b>3D Unity</p>
+		 <br>
+		 <p><b>Genre:</b>Endless runner</p>
+		 </div>
+        </div>  
+        </div>
+    </div>
+	
+    <div id = "container2">
+	
+	       <div id ="Spawn1">
+             <img src ="images/Spawn1.jpeg" style="width:416px">
+			 <p><center>OBSTACLE SPAWNER<center></p>
+			 <p><center>It works by passing in the reference to the existing game object which is then duplicated as a clone.<center></p>
+	       </div>
+	   
+           <div id="Transform1">
+             <img src ="images/Transform1.jpeg" style="width:416px">
+			 <p><center>MOVE PLAYER<center></p>
+			 <p><center>The Transform component determines the position of the object in the scene via input keys.<center></p>
+           </div>
+	   
+           <div id="Trigger1">
+             <img src ="images/Trigger1.jpeg" style="width:416px">
+			 <p><center>TRIGGER / TIMER<center></p>
+			 <p><center>Collider is setup as a Trigger so that it will use the event system / Storing a float time value to count up.<center></p>
+           </div>
+	</div>
+	
+	<div id="game2">
+         <a href="#IrVentanaFlotante2">
+           <div id="game2">
+             <img src ="images/game2.jpeg" style="width:1280px">
+           </div>
+         </a>
+
+        <div id="IrVentanaFlotante2" class="modal2">
+        <div class="ventana2">
+          <a href="#" style='text-decoration:none;'>
+          <p align = "right">CLOSE</p>
+          </a>
+         <h2><center>Street Danger</center></h2>
+		 <img src ="images/danger.jpeg" style="width:55%">
+		  <div id="info2">
+         <p><b>Description:</b></p>
+		 <p>Street Danger is a game where the protagonist is forced to fight to save his city. Soldiers imperials will be your enemies.</p>
+		 <br>
+		 <p><b>Developer:</b>Ositos Cariñositos team</p>
+		 <br>
+		 <p><b>Engine:</b>2D Unity</p>
+		 <br>
+		 <p><b>Genre:</b>Beat 'em up</p>
+		 </div>
+        </div>  
+        </div>
+    </div>
+	<div id = "container3">
+	   <div id ="Lifes2">
+	   <img src ="images/Lifes2.jpeg" style="width:416px">
+	   <p><center>LIFE SYSTEM<center></p>
+	   <p><center>Event function removes a life each time the player is hit and ends the game when lives run out.<center></p>
+	   </div>
+	   <div id ="SM2">
+	   <img src ="images/SM2.jpeg" style="width:416px">
+	   <p><center>STATE MACHINE<center></p>
+	   <p><center>It allows user input to trigger different animations and provides a way to overview all of the animation clips.<center></p>
+	   </div>
+	   <div id ="Target2">
+	   <img src ="images/Target2.jpeg" style="width:416px">
+	   <p><center>ENEMY TARGET<center></p>
+	   <p><center>The vectors will determine how the enemy should move and the range at which the player is a target.<center></p>
+       </div>
+	</div>
+</div>
+<h1 style="color: white"><font size="6", face="Brush Script MT"><center>THANKS!</center></font></h1>
+</body>
+</html>
